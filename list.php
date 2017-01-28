@@ -1,8 +1,9 @@
 <div class="container">
-    <h1>Wallach IX</h1>
+    <h1><?php echo $current_name; ?></h1>
+    <h5><?php echo $current_description; ?></h5>
   <div class="panel panel-default">
     <div class="panel-heading">Collections available</div>
-    <table class="table">
+      <table class="table">
         <thead>
           <tr>
             <th class="text-center">Status</th>

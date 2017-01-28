@@ -1,5 +1,6 @@
 <?php require_once("header.php"); ?>
 <?php require_once("menu.php"); ?>
+<?php require_once("services.php"); ?>
 <div id="conteudo">
 	<?php
 	 if(!isset($_GET['page']))
@@ -9,3 +10,4 @@
 	?>
 </div>
 <?php require_once("footer.php"); ?>
+<?php require_once("services.php"); ?>

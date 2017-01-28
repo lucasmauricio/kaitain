@@ -26,10 +26,10 @@
                 <div class="thumbnail">
                     <img src="img/eisplanet07.jpg" alt="">
                     <div class="caption">
-                        <h3>Wallach IX</h3>
-                        <p>This is the collection API.</p>
+                        <h3><?php echo $services['wallach-ix']; ?></h3>
+                        <p><?php echo $services_description['wallach-ix']; ?></p>
                         <p>
-                            <a href="index.php?page=wallach-ix" class="btn btn-primary">Test it!</a> <a href="https://github.com/lucasmauricio/wallach-ix" class="btn btn-default">Github repo</a>
+                            <a href="index.php?page=list&service=wallach-ix" class="btn btn-primary">Test it!</a> <a href="https://github.com/lucasmauricio/wallach-ix" class="btn btn-default">Github repo</a>
                         </p>
                     </div>
                 </div>
@@ -39,8 +39,8 @@
                 <div class="thumbnail">
                     <img src="img/eisplanet01.jpg" alt="">
                     <div class="caption">
-                        <h3>IX</h3>
-                        <p>This is the item API.</p>
+                        <h3><?php echo $services['ix']; ?></h3>
+                        <p><?php echo $services_description['ix']; ?></p>
                         <p>
                             <a href="#" class="btn btn-primary">Test it!</a> <a href="https://github.com/lucasmauricio/ix" class="btn btn-default">Github repo</a>
                         </p>
@@ -52,8 +52,8 @@
                 <div class="thumbnail">
                     <img src="img/eisplanet02.jpg" alt="">
                     <div class="caption">
-                        <h3>Balut</h3>
-                        <p>This is the user API.</p>
+                        <h3><?php echo $services['balut']; ?></h3>
+                        <p><?php echo $services_description['balut']; ?></p>
                         <p>
                             <a href="#" class="btn btn-primary">Test it!</a> <a href="https://github.com/lucasmauricio/balut" class="btn btn-default">Github repo</a>
                         </p>
@@ -65,8 +65,8 @@
                 <div class="thumbnail">
                     <img src="img/eisplanet03.jpg" alt="">
                     <div class="caption">
-                        <h3>Service discovery</h3>
-                        <p>API for register/discover services.</p>
+                        <h3><?php echo $services['discovery']; ?></h3>
+                        <p><?php echo $services_description['discovery']; ?></p>
                         <p>
                             <a href="#" class="btn btn-primary">Test it!</a> <a href="https://github.com/lucasmauricio/service-discovery" class="btn btn-default">Github repo</a>
                         </p>
