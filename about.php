@@ -1,6 +1,8 @@
 <h1 id="arrakis">Arrakis</h1>
 <p>Arrakis is a proof-of-concept project to develop a microservice application.</p>
-<h2 id="the-project-and-its-dependencies">The project and its dependencies</h2>
+<div class="container">
+<div class="panel panel-default">
+  <div class="panel-headind"><h2 id="the-project-and-its-dependencies">The project and its dependencies</h2></div>
 <table class="table">
 <thead>
 <tr class="header">
@@ -32,6 +34,8 @@
 </tr>
 </tbody>
 </table>
+</div>
+</div>
 <p>All the project is glued with <a href="https://docs.docker.com/compose/">Docker Compose</a>.</p>
 <h2 id="projects-pre-requirements">Project's pre-requirements</h2>
 <p>The project is supported by the technologies and tools listed below:</p>
