@@ -19,8 +19,10 @@
             <td>203</td>
             <td>SW Characters</td>
             <td>Person</td>
-            <td><span class="glyphicon glyphicon-remove" aria-hidden="true">
-                <span class="glyphicon glyphicon-edit" aria-hidden="true">
+            <td><span class="glyphicon glyphicon-remove" aria-hidden="true" data-toggle="modal" data-target="#myModal">
+                <a href="index.php?page=form&service=<?php echo $current_service; ?>&item=203" target="_self">
+                  <span class="glyphicon glyphicon-edit" aria-hidden="true">
+                </a>
             </td>
           </tr>
           <tr>
@@ -28,8 +30,10 @@
             <td>104</td>
             <td>SW Ships</td>
             <td>Vehicle</td>
-            <td><span class="glyphicon glyphicon-remove" aria-hidden="true">
+            <td><span class="glyphicon glyphicon-remove" aria-hidden="true" data-toggle="modal" data-target="#myModal">
+              <a href="index.php?page=form&service=<?php echo $current_service; ?>&item=104" target="_self">
                 <span class="glyphicon glyphicon-edit" aria-hidden="true">
+              </a>
             </td>
           </tr>
           <tr>
@@ -37,11 +41,33 @@
             <td>156</td>
             <td>SW Systems</td>
             <td>Planets</td>
-            <td><span class="glyphicon glyphicon-remove" aria-hidden="true">
+            <td><span class="glyphicon glyphicon-remove" aria-hidden="true" data-toggle="modal" data-target="#myModal">
+              <a href="index.php?page=form&service=<?php echo $current_service; ?>&item=156" target="_self">
                 <span class="glyphicon glyphicon-edit" aria-hidden="true">
+              </a>
             </td>
           </tr>
         </tbody>
       </table>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel"><?php echo $current_key_word; ?> exclusion</h4>
+      </div>
+      <div class="modal-body alert alert-danger">
+        <p>This <?php echo $current_key_word; ?> will be excluded. This action  cannot be undone.</p>
+        <p>Are you certain of this?</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">Ok</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+      </div>
+    </div>
   </div>
 </div>

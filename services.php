@@ -17,6 +17,7 @@
                             'balut' => 'User',
                             'discovery' => 'Service'
                           );
+
   $current_service = $_GET['service'];
   $current_name = $services[$current_service];
   $current_description = $services_description[$current_service];
