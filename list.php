@@ -2,14 +2,14 @@
     <h1><?php echo $current_name; ?></h1>
     <h5><?php echo $current_description; ?></h5>
   <div class="panel panel-default">
-    <div class="panel-heading">Collections available</div>
+    <div class="panel-heading"><?php echo $current_key_word; ?>s available</div>
       <table class="table">
         <thead>
           <tr>
             <th class="text-center">Status</th>
-            <th>Collection Id</th>
-            <th>Collection Name</th>
-            <th>Collection Type</th>
+            <th><?php echo $current_key_word; ?> Id</th>
+            <th><?php echo $current_key_word; ?> Name</th>
+            <th><?php echo $current_key_word; ?> Type</th>
             <th>Action</th>
           </tr>
         </thead>

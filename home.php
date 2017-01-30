@@ -43,7 +43,7 @@
                         <h3><?php echo $services['ix']; ?></h3>
                         <p><?php echo $services_description['ix']; ?></p>
                         <p>
-                            <a href="#" class="btn btn-primary">Test it!</a>
+                            <a href="index.php?page=list&service=ix" class="btn btn-primary">Test it!</a>
                             <a href="https://github.com/lucasmauricio/ix" class="btn btn-default" target="_blank">Github repo</a>
                         </p>
                     </div>
@@ -57,7 +57,7 @@
                         <h3><?php echo $services['balut']; ?></h3>
                         <p><?php echo $services_description['balut']; ?></p>
                         <p>
-                            <a href="#" class="btn btn-primary">Test it!</a>
+                            <a href="index.php?page=list&service=balut" class="btn btn-primary">Test it!</a>
                             <a href="https://github.com/lucasmauricio/balut" class="btn btn-default" target="_blank">Github repo</a>
                         </p>
                     </div>
@@ -71,7 +71,7 @@
                         <h3><?php echo $services['discovery']; ?></h3>
                         <p><?php echo $services_description['discovery']; ?></p>
                         <p>
-                            <a href="#" class="btn btn-primary">Test it!</a>
+                            <a href="index.php?page=list&service=discovery" class="btn btn-primary">Test it!</a>
                             <a href="https://github.com/lucasmauricio/service-discovery" class="btn btn-default" target="_blank">Github repo</a>
                         </p>
                     </div>
