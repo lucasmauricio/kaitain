@@ -22,7 +22,7 @@
           <p class="help-block">Example block-level help text here.</p>
         </div>
         <button type="submit" class="btn btn-primary">Ok</button>
-        <button type="submit" class="btn btn-default">Cancel</button>
+        <button type="button" class="btn btn-default">Cancel</button>
       </form>
     </div>
   </div>

@@ -16,9 +16,9 @@
         <tbody>
           <tr>
             <th scope="row" class="text-center alert alert-info"><span class="glyphicon glyphicon-ok-circle" aria-hidden="true"></span></th>
-            <td>203</td>
-            <td>SW Characters</td>
-            <td>Person</td>
+            <td><?php echo $current_items['id']; ?></td>
+            <td><?php echo $current_items['name']; ?></td>
+            <td><?php echo $current_items['type']; ?></td>
             <td><span class="glyphicon glyphicon-remove" aria-hidden="true" data-toggle="modal" data-target="#myModal">
                 <a href="index.php?page=form&service=<?php echo $current_service; ?>&item=203" target="_self">
                   <span class="glyphicon glyphicon-edit" aria-hidden="true">
